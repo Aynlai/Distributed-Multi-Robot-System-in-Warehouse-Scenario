@@ -1,0 +1,9 @@
+Map debug log:
+
+# Control  Multiple Robot Example
+## Prob 1 : Can't change the map
+
+## Solution
+1. Don't open the example livescript
+2. change the 'scheduler' parameters and 'visulization helper' parameters, it is the problem of the dimesion of  'loadingStation'
+3. change the name of the map in the 'exampleMultiRobotHelperInit.m' 
