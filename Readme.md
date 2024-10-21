@@ -10,7 +10,7 @@
 
 ## 4.2 Autonomous Robots in warehouse applications
 
-![image-20241012103002587](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012103002587.png)
+![1](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/1.png?raw=true)
 
 ### 4.2.1 Sensing & Perception
 
@@ -32,13 +32,13 @@ as well as finally control. its electronic components, such as the drives, as we
 
 Robots are expected to coordinate/interact with the environment as well as within themselves to complete complex tasks optimally
 
-![image-20241012104155103](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012104155103.png)
+![2](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/2.png?raw=true)
 
 communicate with other either to a single server or from a peer to peer communication.
 
 Once you have the communication set up it also talks to the tasking and the routing engine, which would help you resolve, as well as complete these tasks in an optimal fashion
 
-![image-20241012105115457](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012105115457.png)
+![3](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/3.png?raw=true)
 
 **Scenario Creation:** defining the environment, coming up with a map, coming up with a traffic graph for these robots could actually navigate
 
@@ -46,7 +46,7 @@ Once you have the communication set up it also talks to the tasking and the rout
 
  +  **Entity Creation**:  being done by SimEvents, 
 
-    <img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012105929536.png" alt="image-20241012105929536" style="zoom: 33%;" />
+    <img src="https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/4.png?raw=true" alt="image-20241012105929536" style="zoom: 33%;" />
 
     which is specifically for a agent or a robot
 
@@ -54,7 +54,7 @@ Once you have the communication set up it also talks to the tasking and the rout
 
     Agent is being stored as agent data, which needs to be passed on to your initialization engine where you're creating all of these events or the broadcast messages. 
 
-    <img src="C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012111349750.png" alt="image-20241012111349750" style="zoom:67%;" />
+    <img src="https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/5.png?raw=true" style="zoom:67%;" />
 
  +  **Agent Dynamics**
 
@@ -113,7 +113,7 @@ Once you have the communication set up it also talks to the tasking and the rout
 
 ## 4.4 Example
 
-![image-20241012115217773](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012115217773.png)
+![6](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/6.png?raw=true)
 
 ### 4.4.1 Initialization Engine
 
@@ -121,7 +121,7 @@ where we would **create the bus signals** for agents and tasks
 
 ### 4.4.2 Agent Creation
 
-![image-20241012115321588](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012115321588.png)
+![image-20241012115321588](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/7.png?raw=true)
 
 we have defined the bus and would create these entities using the entity generator where we would name it and it would get mapped to the entity pool.
 
@@ -129,6 +129,6 @@ As explained earlier, each entity has an ID, current position, type as well as a
 
 ### 4.4.3 Task Engine & Routing Engine
 
-![image-20241012115821495](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012115821495.png)
+![image-20241012115821495](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/8.png?raw=true)
 
-![image-20241012115921585](C:\Users\Ryan\AppData\Roaming\Typora\typora-user-images\image-20241012115921585.png)
+![image-20241012115921585](https://github.com/Aynlai/Distributed-Robot-System-in-Warehouse-Scenario/blob/main/fig/readmefig/9.png?raw=true)
